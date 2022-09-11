@@ -50,7 +50,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:sqlserver://localhost:1433;database=recipebook;encrypt=false
     username: SA
-    password: yourStrong(!)Password
+    password: password
     hikari:
       poolName: Hikari
       auto-commit: false
