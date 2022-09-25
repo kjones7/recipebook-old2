@@ -51,6 +51,7 @@ public class CacheConfiguration {
             createCache(cm, net.kylejones.recipebook.domain.User.class.getName());
             createCache(cm, net.kylejones.recipebook.domain.Authority.class.getName());
             createCache(cm, net.kylejones.recipebook.domain.User.class.getName() + ".authorities");
+            createCache(cm, net.kylejones.recipebook.domain.Ingredient.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
